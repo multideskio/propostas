@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        if (window.location.protocol !== 'file:') {
+            document.documentElement.classList.add('js-enabled');
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDS Floors | Premium Flooring Installation & Refinishing in Jacksonville, FL</title>
+    <meta name="description" content="Get premium hardwood, luxury vinyl plank, tile, and laminate flooring installation. Serving Jacksonville, Ponte Vedra, and St. Augustine with top-tier craftsmanship. Get your free estimate today!">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header id="main-header">
+        <div class="header-container">
+            <a href="#" class="logo" id="header-logo">
+                <span class="brand-bds">BDS</span><span class="brand-floors">Floors</span>
+            </a>
+            
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html#hero">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#why-choose-us">Why Us</a></li>
+                    <li><a href="index.html#locations">Service Areas</a></li>
+                    <li><a href="index.html#testimonials">Reviews</a></li>
+                    <li><a href="proposal.html" class="nav-proposal-highlight">Hybrid Proposal</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="tel:+19045550199" class="phone-link">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>(904) 555-0199</span>
+                </a>
+                <button class="btn btn-primary open-quote-modal" id="btn-quote-header">Free Estimate</button>
+            </div>
+            
+            <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobile-drawer">
+        <ul class="mobile-nav-links">
+            <li><a href="index.html#hero" class="mobile-link">Home</a></li>
+            <li><a href="index.html#services" class="mobile-link">Services</a></li>
+            <li><a href="index.html#why-choose-us" class="mobile-link">Why Us</a></li>
+            <li><a href="index.html#locations" class="mobile-link">Service Areas</a></li>
+            <li><a href="index.html#testimonials" class="mobile-link">Reviews</a></li>
+            <li><a href="proposal.html" class="mobile-link nav-proposal-highlight">Hybrid Proposal</a></li>
+        </ul>
+        <div class="mobile-drawer-actions">
+            <a href="tel:+19045550199" class="phone-link-mobile">
+                <i class="fa-solid fa-phone"></i> (904) 555-0199
+            </a>
+            <button class="btn btn-primary open-quote-modal w-full">Free Estimate</button>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-content scroll-reveal">
+                <div class="badge">
+                    <i class="fa-solid fa-star text-gold"></i> #1 Flooring Contractor in Jacksonville
+                </div>
+                <h1>Elevate Your Space With <span class="gradient-text">Premium Floors</span></h1>
+                <p>Top-tier craftsmanship in Hardwood, Luxury Vinyl, Tile, and Laminate installation. We bring durability and elegant design directly to your home or commercial property.</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-large open-quote-modal" id="btn-hero-primary">
+                        Get A Free Estimate <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <a href="#services" class="btn btn-secondary btn-large">
+                        Explore Services
+                    </a>
+                </div>
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <i class="fa-solid fa-circle-check"></i> Licensed & Insured
+                    </div>
+                    <div class="trust-item">
+                        <i class="fa-solid fa-circle-check"></i> 5-Star Rated Craftsmanship
+                    </div>
+                    <div class="trust-item">
+                        <i class="fa-solid fa-circle-check"></i> Dust-Free Process
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper scroll-reveal delay-200">
+                <div class="image-card">
+                    <div class="hero-slider">
+                        <div class="slide active">
+                            <img src="assets/hero.png" alt="Luxurious Oak Hardwood Floor in a modern home">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/vinyl.png" alt="Luxury Vinyl Plank Flooring in kitchen">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/tile.png" alt="Large Format Porcelain Tile Flooring">
+                        </div>
+                    </div>
+                    <div class="floating-badge glass">
+                        <i class="fa-solid fa-award text-gold"></i>
+                        <div>
+                            <h4>15+ Years</h4>
+                            <p>Proven Quality</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-subtitle">What We Do</span>
+                <h2>Our Premium Flooring Solutions</h2>
+                <p>We provide end-to-end flooring services tailored to your aesthetic preferences, budget, and durability requirements.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1: Hardwood -->
+                <div class="service-card scroll-reveal">
+                    <div class="service-img-container">
+                        <img src="assets/hero.png" alt="Hardwood Flooring Installation">
+                    </div>
+                    <div class="service-body">
+                        <div class="service-icon"><i class="fa-solid fa-tree"></i></div>
+                        <h3>Hardwood Installation & Refinishing</h3>
+                        <p>Timeless solid and engineered hardwood floors. We also offer dust-free refinishing to bring old wood floors back to life.</p>
+                        <a href="#services" class="service-link open-quote-modal">Get Estimate <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 2: Luxury Vinyl -->
+                <div class="service-card scroll-reveal delay-100">
+                    <div class="service-img-container">
+                        <img src="assets/vinyl.png" alt="Luxury Vinyl Plank Flooring in kitchen">
+                    </div>
+                    <div class="service-body">
+                        <div class="service-icon"><i class="fa-solid fa-droplet-slash"></i></div>
+                        <h3>Luxury Vinyl Plank (LVP)</h3>
+                        <p>100% waterproof, scratch-resistant flooring. Ideal for active households, kitchens, and high-moisture areas in Florida.</p>
+                        <a href="#services" class="service-link open-quote-modal">Get Estimate <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 3: Tile & Stone -->
+                <div class="service-card scroll-reveal delay-200">
+                    <div class="service-img-container">
+                        <img src="assets/tile.png" alt="Large Format Porcelain Tile Flooring">
+                    </div>
+                    <div class="service-body">
+                        <div class="service-icon"><i class="fa-solid fa-border-all"></i></div>
+                        <h3>Large Format Tile Installation</h3>
+                        <p>Elegant porcelain and marble tiles for bathrooms, kitchens, and patios. Precision leveling and clean grouting lines.</p>
+                        <a href="#services" class="service-link open-quote-modal">Get Estimate <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us (Stats & Values) -->
+    <section id="why-choose-us" class="bg-alt">
+        <div class="container">
+            <div class="why-wrapper">
+                <div class="why-content scroll-reveal">
+                    <span class="section-subtitle">Unmatched Quality</span>
+                    <h2>Why Homeowners Choose BDS Floors</h2>
+                    <p>We believe that a beautiful floor starts with meticulous preparation and ends with flawless execution. We don't cut corners; we install them with absolute precision.</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div>
+                                <h4>Lifetime Craftsmanship Warranty</h4>
+                                <p>We stand behind our work. If there's an issue with the installation quality, we fix it at no cost.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-wind"></i></div>
+                            <div>
+                                <h4>Dust-Free Sanding Technology</h4>
+                                <p>Our state-of-the-art sanding equipment captures 99% of dust, keeping your air and home clean.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-dollar-sign"></i></div>
+                            <div>
+                                <h4>Transparent, Fixed-Price Quotes</h4>
+                                <p>No hidden fees, no unexpected surcharges. What we quote is exactly what you pay.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="why-stats scroll-reveal delay-200">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3>1,200+</h3>
+                            <p>Floors Installed</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>100%</h3>
+                            <p>Satisfaction Rating</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>15+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>5★</h3>
+                            <p>Google Reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO / Service Areas Section -->
+    <section id="locations">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-subtitle">Local Expertise</span>
+                <h2>Areas We Serve in Northeast Florida</h2>
+                <p>We provide professional flooring installation directly to residential and commercial clients across these counties and cities.</p>
+            </div>
+            
+            <div class="locations-grid scroll-reveal">
+                <div class="location-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>Jacksonville, FL</h4>
+                    <p>Core service area including Mandarin, Southside, and Westside.</p>
+                </div>
+                <div class="location-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>Ponte Vedra Beach</h4>
+                    <p>High-end hardwood and tile installations in coastal communities.</p>
+                </div>
+                <div class="location-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>St. Augustine, FL</h4>
+                    <p>Historical restorations and modern flooring solutions.</p>
+                </div>
+                <div class="location-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>Orange Park / Middleburg</h4>
+                    <p>Durability-focused LVP and laminate floor installations.</p>
+                </div>
+                <div class="location-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>Nassau County, FL</h4>
+                    <p>Serving Fernandina Beach, Yulee, and Amelia Island.</p>
+                </div>
+                <div class="location-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>Palm Coast / Flagler</h4>
+                    <p>New construction installations and flooring replacements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-alt">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-subtitle">Testimonials</span>
+                <h2>What Our Customers Say</h2>
+                <p>Read real stories of transformation from homeowners who trusted us with their flooring projects.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card scroll-reveal">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"BDS Floors refinished our 20-year-old oak hardwood floors, and they look brand new. The dust-free system actually works! The team was professional, fast, and left the house spotless."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-info">
+                            <h4>Sarah Jenkins</h4>
+                            <p>Ponte Vedra Beach, FL</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card scroll-reveal delay-100">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"Highly recommend for LVP installation. We wanted waterproof floors for our dogs. BDS Floors guided us to the right brand and installed the entire first floor in just 2 days. Flawless work!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-info">
+                            <h4>Michael Torres</h4>
+                            <p>Jacksonville (Southside), FL</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card scroll-reveal delay-200">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"We hired them to tile our master bathroom and shower. The alignment, leveling, and grouting are absolutely perfect. The price was fair and they kept us updated throughout."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-info">
+                            <h4>Amanda & David L.</h4>
+                            <p>St. Augustine, FL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section id="cta-banner">
+        <div class="cta-container scroll-reveal">
+            <h2>Ready to Transform Your Home?</h2>
+            <p>Get a comprehensive, fixed-price quote for your flooring project today. We bring sample materials directly to your home during the evaluation!</p>
+            <div class="cta-actions">
+                <button class="btn btn-gold btn-large open-quote-modal" id="btn-cta-estimate">
+                    Schedule Your Free Estimate <i class="fa-solid fa-calendar-days"></i>
+                </button>
+                <a href="tel:+19045550199" class="btn btn-outline btn-large">
+                    <i class="fa-solid fa-phone"></i> Call (904) 555-0199
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="brand-bds">BDS</span><span class="brand-floors">Floors</span>
+                </a>
+                <p>Premium flooring installation and dust-free refinishing services across Northeast Florida. Quality craftsmanship that stands the test of time.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Houzz"><i class="fa-brands fa-houzz"></i></a>
+                    <a href="#" aria-label="Google"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Hardwood Installation</a></li>
+                    <li><a href="#services">Hardwood Refinishing</a></li>
+                    <li><a href="#services">Luxury Vinyl Plank (LVP)</a></li>
+                    <li><a href="#services">Tile & Stone Installation</a></li>
+                    <li><a href="#services">Laminate Flooring</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Service Areas</h4>
+                <ul>
+                    <li><a href="#locations">Jacksonville, FL</a></li>
+                    <li><a href="#locations">Ponte Vedra Beach</a></li>
+                    <li><a href="#locations">St. Augustine, FL</a></li>
+                    <li><a href="#locations">Nassau County</a></li>
+                    <li><a href="#locations">Palm Coast / Flagler</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p><i class="fa-solid fa-phone text-gold"></i> <a href="tel:+19045550199">(904) 555-0199</a></p>
+                <p><i class="fa-solid fa-envelope text-gold"></i> <a href="mailto:info@bdsfloors.com">info@bdsfloors.com</a></p>
+                <p><i class="fa-solid fa-clock text-gold"></i> Mon - Sat: 8:00 AM - 6:00 PM</p>
+                <p><i class="fa-solid fa-shield-halved text-gold"></i> Fully Licensed & Insured</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 BDS Floors. All rights reserved. Refactored & Optimized for Maximum Performance.</p>
+                <p>Designed for SEO & local lead generation in Northeast Florida.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Estimate Request Modal (Glassmorphism design) -->
+    <div class="modal-overlay" id="quote-modal">
+        <div class="modal-card glass">
+            <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+            <div class="modal-header">
+                <h3>Request a Free Estimate</h3>
+                <p>Fill out the form below, and we'll contact you within 24 business hours to schedule a free in-home consultation.</p>
+            </div>
+            <form id="estimate-form">
+                <div class="form-group">
+                    <label for="client-name">Full Name *</label>
+                    <input type="text" id="client-name" required placeholder="John Doe">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="client-email">Email Address *</label>
+                        <input type="email" id="client-email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="client-phone">Phone Number *</label>
+                        <input type="tel" id="client-phone" required placeholder="(904) 555-0100">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="flooring-type">Flooring Interest *</label>
+                        <select id="flooring-type" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="hardwood-install">Hardwood Installation</option>
+                            <option value="hardwood-refinish">Hardwood Refinishing</option>
+                            <option value="luxury-vinyl">Luxury Vinyl Plank (LVP)</option>
+                            <option value="tile-stone">Tile & Stone Installation</option>
+                            <option value="laminate">Laminate Flooring</option>
+                            <option value="other">Multiple / Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="service-city">Your City *</label>
+                        <input type="text" id="service-city" required placeholder="Jacksonville, FL">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="project-details">Project Details / Message</label>
+                    <textarea id="project-details" rows="3" placeholder="Describe the rooms, approximate square footage, or any special requests..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-full" id="btn-submit-quote">
+                    Submit Estimate Request <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+
+            <div class="success-message" id="form-success">
+                <div class="success-icon"><i class="fa-solid fa-circle-check text-green"></i></div>
+                <h3>Estimate Requested!</h3>
+                <p>Thank you, <span id="success-name"></span>! We have received your project details and will call you soon at <span id="success-phone"></span> to confirm your consultation time.</p>
+                <button class="btn btn-primary" id="btn-success-close">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Script -->
+    <script src="app.js"></script>
+</body>
+</html>
